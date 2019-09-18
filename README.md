@@ -17,11 +17,15 @@ You must have the following prereqs configured:
 * Python 3.4 or above
 * The tool [git-secrets](https://github.com/awslabs/git-secrets) must be
   installed and configured to recognize AWS patterns
-* You must setup a Git pre-commit hook:
-  * Use the Git config variable
-    ['core.hooksPath'](https://github.com/awslabs/git-secrets#advanced-configuration)(preferred),
-    or the Git config variable
-    ['init.templateDir'](https://git-scm.com/docs/git-init#_template_directory).
+* You must setup a Git pre-commit hook to run during every commit operation
+  * To setup the pre-commit hook, add it to your local Git config variable
+    'init.templateDir' [with these
+    commands](https://github.com/awslabs/git-secrets#advanced-configuration),
+    which will add the hook to all future Git repositories. Read the `git init`
+    ([manpage](https://git-scm.com/docs/git-init#_template_directory)).
+    (PREFERRED METHOD)
+  * You can also use the Git config variable
+    ['core.hooksPath'](https://git-scm.com/docs/git-config#Documentation/git-config.txt-corehooksPath).
 
 ## Running the Test
 
