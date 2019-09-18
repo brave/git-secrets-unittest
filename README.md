@@ -98,8 +98,7 @@ http://mozilla.org/MPL/2.0/ for more information.
 
 ## Contributing
 
-1. Fork the Repository (<https://github.com/brave/git-secrets-unittest/fork>)
-2. Create your branch (`git checkout -b fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin fooBar`)
-5. Create a new Pull Request
+1. Create your branch (`git checkout -b fooBar`)
+2. Commit your changes (`git commit -am 'Add some fooBar'`)
+3. Push to the branch (`git push origin fooBar`)
+4. Create a new Pull Request
