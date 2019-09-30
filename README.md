@@ -1,4 +1,4 @@
-# Tesing git-secrets
+# Testing git-secrets
 
 This `unittest-git-secrets.py` script can easily validate both git-secrets and git pre-commit
 hook functions correctly.
